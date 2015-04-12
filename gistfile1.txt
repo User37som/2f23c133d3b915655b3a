@@ -33,9 +33,9 @@ public nodl(QueryCookie:cookie, client, ConVarQueryResult:result, const String:c
 		}
 		else
 		{
-		return _:nodl_ok = 1, dlfilter;
-		}
 	    return Plugin_Handled;
+		}
+
 	}
 }
 
